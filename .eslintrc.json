@@ -28,10 +28,12 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react", "import", "jsx-a11y", "prettier"],
+  "plugins": ["react", "import", "jsx-a11y", "prettier", "react-hooks"],
   "rules": {
     "prettier/prettier": "error",
     "no-console": 1,
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 1
   }
 }
